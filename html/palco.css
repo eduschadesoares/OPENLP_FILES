@@ -1,0 +1,85 @@
+/******************************************************************************
+* OpenLP - Open Source Lyrics Projection                                      *
+* --------------------------------------------------------------------------- *
+* Copyright (c) 2008-2015 OpenLP Developers                                   *
+* --------------------------------------------------------------------------- *
+* This program is free software; you can redistribute it and/or modify it     *
+* under the terms of the GNU General Public License as published by the Free  *
+* Software Foundation; version 2 of the License.                              *
+*                                                                             *
+* This program is distributed in the hope that it will be useful, but WITHOUT *
+* ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or       *
+* FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for    *
+* more details.                                                               *
+*                                                                             *
+* You should have received a copy of the GNU General Public License along     *
+* with this program; if not, write to the Free Software Foundation, Inc., 59  *
+* Temple Place, Suite 330, Boston, MA 02111-1307 USA                          *
+******************************************************************************/
+
+body { text-transform: uppercase; background-color: black; font-family: 'Arial Narrow', 'Avenir Next Condensed', sans-serif-condensed, Arial, sans-serif; font-size: 4.4vw; overflow: hidden;}
+
+#currentslide {font-size: 100%; color: lightgray; padding-bottom: 0px; padding-top: 20px; font-weight: bold}
+
+#nextslide { font-size: 90%; color: gray; padding-top: 0px; padding-bottom: 0px;}
+
+#informations {height: auto; overflow: auto; text-align: center; background-color: #404040;}
+
+.top {display: inline-grid;}
+
+#clock {font-size: 180%; color: red; float: left; font-weight: bold; padding-left: 100px;}
+
+#chordsOP {float: right; padding-right: 100px; padding-top: 20px;}
+
+#controls {display:none;}
+
+#chords:hover {
+  background-color: gray;
+}
+
+#plus:hover {
+  background-color: #212121;
+}
+
+#minus:hover {
+  background-color: #212121;
+}
+
+
+
+#chords{ font-size: 50%; color:gray; color:white; cursor:pointer; text-align: center; font-weight: bold;}
+
+#separation{ height: 10px; }
+
+#header {height: auto; overflow: auto; background-color: #0f0f0f; padding-left: 10px; padding-top: 10px;}
+
+#transpose, #transposevalue, #capodisplay { display: inline-block; font-size: 75%; color:gray ; vertical-align: middle;}
+#header .button , #plus, #minus{ display: inline-block; width: 3vw; line-height: 3vw; vertical-align: middle; color: white; background-color:gray; font-size: 75%; text-align:center; cursor:pointer;}
+
+#verseorder { font-size: 75%; color: green; text-align: left; line-height: 1.5; display:inline-block; vertical-align: middle;}
+
+.currenttag { color: lightgreen;}
+.chordline { line-height:2.0; }
+.chordline1 { line-height:1.0 }
+.chordline span.chord span { position:relative; font-weight: bold}
+.chordline span.chord span strong { position:absolute; top:-1em; left:0; font:500 75% 'Arial Narrow', 'Avenir Next Condensed', sans-serif-condensed, Arial, sans-serif; color:yellow; font-weight: bold}
+#nextslide .chordline span.chord span strong { color:orange; }
+
+#notes { font-size: 100%; color: salmon; text-align: right;}
+
+
+
+@media only screen and (max-width: 600px) {
+	
+	#informations {height: auto; overflow: auto; text-align: center; background-color: #404040; display: grid; }
+
+	#chordsOP {background-color: gray; font-size: 200%; height: inherit; padding-right: 0px; padding-top: 0px; float: inherit;}
+
+	#plusminus {display: none;}
+	
+	#clock {font-size: 400%; color: red; font-weight: bold; padding-left: 0px; float: inherit;}
+
+	#currentslide {font-size: 160%; color: lightgray; padding-bottom: 0px; padding-top: 20px; font-weight: bold}
+
+	#nextslide { font-size: 120%; color: gray; padding-top: 0px; padding-bottom: 0px;}
+}
