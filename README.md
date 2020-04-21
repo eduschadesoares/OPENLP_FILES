@@ -9,3 +9,11 @@
 
 ### Arquivo Config
 - Importar no OpenLP o arquivo de configuração
+
+--------------
+
+# Página stage
+  http://localhost:4316/files/palco.html
+  
+# Página chroma
+  http://localhost:4316/stage/chroma
