@@ -6,3 +6,6 @@
   
 ### Arquivos Chroma
 - AppData\Roaming\openlp\data\stages\chroma
+
+### Arquivo Config
+- Importar no OpenLP o arquivo de configuração
