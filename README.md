@@ -12,8 +12,8 @@
 
 --------------
 
-# Página stage
+### Página stage
   http://localhost:4316/files/palco.html
   
-# Página chroma
+### Página chroma
   http://localhost:4316/stage/chroma
